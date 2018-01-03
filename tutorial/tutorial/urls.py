@@ -16,7 +16,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 
+# Url map of django
 urlpatterns = [
-    path('polls/', include('polls.urls')),
+    path('polls/', include('polls.urls')),  # Includes polls app url to gain accessibilty to uri
     path('admin/', admin.site.urls),
 ]
