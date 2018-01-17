@@ -1,1 +1,0 @@
-web: python tutorial/manage.py runserver
